@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
     //Optional extra practice (Wind Chill Temp)
     System.out.println("Enter outside temperature (between -58 and 41 F): "); //prompt
     //Scanner input = new Scanner(System.in); //allows for user input
     double outsideTemp = input.nextDouble(); //user input
-    System.out.println("Enter windspeed (above or equal to 2 mph"); //prompt
+    System.out.println("Enter windspeed (above or equal to 2 mph)"); //prompt
     double windSpeed = input.nextDouble(); //user input
     double trueWindSpeed = Math.pow(windSpeed, 0.16); //exponent
 
